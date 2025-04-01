@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+<h1>Добро пожаловать!</h1>
+<p>Выберите категорию полезных ссылок:</p>
+<ul>
+    <li><a href="{{ url_for('programming') }}">Программирование</a></li>
+    <li><a href="{{ url_for('education') }}">Образование</a></li>
+    <li><a href="{{ url_for('tools') }}">Полезные инструменты</a></li>
+</ul>
+{% endblock %}

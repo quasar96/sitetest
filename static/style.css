@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+nav {
+    background: #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.link-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.link-card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.link-card a {
+    display: block;
+    padding: 5px 0;
+    color: #0066cc;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.link-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.link-card:hover {
+    transform: translateY(-5px);
+}
+
+.link-card h2 {
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.link-card a {
+    display: block;
+    padding: 8px 0;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.link-card a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
