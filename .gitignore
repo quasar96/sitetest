@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# Flask
+instance/
+*.log
+*.pot
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# Логи и кэш
+*.log
+*.cache
+*.pid
+
+# Базы данных
+*.db
+*.sqlite
+
+# Тестовые данные
+tests/__pycache__/
+.coverage
+htmlcov/
+
+# Временные файлы
+temp/
+tmp/
