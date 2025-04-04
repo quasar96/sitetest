@@ -5,9 +5,10 @@
 {% block content %}
 <h1>Добро пожаловать!</h1>
 <p>Выберите категорию полезных ссылок:</p>
-<ul>
-    <li><a href="{{ url_for('programming') }}">Программирование</a></li>
-    <li><a href="{{ url_for('education') }}">Образование</a></li>
-    <li><a href="{{ url_for('tools') }}">Полезные инструменты</a></li>
-</ul>
+<div class="link-card">
+    <h2>Ссылки:</h2>
+    <a href="{{ url_for('programming') }}" title="Тест атрибутов" data-comment="Внутренняя ссылка, добавил 05.04.2025" aria-label="Пример (внешняя ссылка)">Программирование</a>
+    <a href="{{ url_for('education') }}">Образование</a>
+    <a href="{{ url_for('tools') }}">Полезные инструменты</a>
+</div>
 {% endblock %}
